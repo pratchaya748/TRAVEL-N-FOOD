@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ท่องเที่ยวภาคใต้</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">การท่องเที่ยวเชิงอาหารพื้นถิ่นภาคใต้ มาเลเซีย และสิงคโปร์</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+  
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">หน้าหลัก</a></li>
+            <li class="nav-item"><a href="inquiry_form.html" class="nav-link">แบบสอบถาม</a></li>
+            <li class="nav-item"><a href="inquiry_report.php" class="nav-link">ความพึงพอใจ</a></li>
+            <li class="nav-item"><a href="earnings_statement.php" class="nav-link">งบการเงิน</a></li>
+            <li class="nav-item"><a href="login.php" class="nav-link">Log in</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_4.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-9 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="true" href="#">แบบสอบถาม</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">ปัจจัยที่ส่งผลต่อการตัดสินใจท่องเที่ยวเชิงอาหารพื้นถิ่นภาคใต้ มาเลเซีย และสิงคโปร์</h5>
+                </br></br>
+                <form action="Save_inquiry.php" method="POST" id="p">
+    
+                    <div class="card text-left p-3 col-md ">
+                        <p class="text-center text-dark">ตอนที่ 1 ข้อมูลทั่วไปของผู้ตอบแบบสอบถาม </p>
+                    <hr>
+                            <label for="gender" class="text-dark">1. เพศ</label>
+                            <div class="text-dark">
+                                <div class="custom-control custom-radio pt-2 form-check-inline ">
+                                    <input type="radio" name="gender" class="custom-control-input" value="ชาย" id = "gender1">
+                                    <label class="custom-control-label" for="gender1" 
+                                        >ชาย</label>
+                                </div>
+                                <div class="custom-control custom-radio form-check-inline">
+                                    <input type="radio" name="gender" class="custom-control-input" value="หญิง" id = "gender2">
+                                    <label class="custom-control-label" for="gender2" 
+                                        >หญิง</label>
+                                </div>
+                            </div><br>
+                            
+                            <label for="inputAddress" class="text-dark">2. อายุ</label>
+                            <div class="">
+                            <div class="custom-control custom-radio pt-2 form-check-inline">
+                                    <input type="radio" name="age" class="custom-control-input text-dark" value="18 – 30 ปี" id = "age1">
+                                    <label class="custom-control-label text-dark" for="age1" 
+                                        >18 – 30 ปี</label>
+                                </div>
+                                <div class="custom-control custom-radio form-check-inline">
+                                    <input type="radio" name="age" class="custom-control-input text-dark" value="31 – 40 ปี" id = "age2">
+                                    <label class="custom-control-label text-dark" for="age2" 
+                                        >31 – 40 ปี</label>
+                                </div><br>
+                                <div class="custom-control custom-radio pt-2 form-check-inline">
+                                    <input type="radio" name="age" class="custom-control-input text-dark" value="41 – 50 ปี" id = "age3">
+                                    <label class="custom-control-label text-dark" for="age3" 
+                                        >41 – 50 ปี</label>
+                                </div>
+                                <div class="custom-control custom-radio form-check-inline">
+                                    <input type="radio" name="age" class="custom-control-input text-dark" value="51 – 60 ปี" id = "age4">
+                                    <label class="custom-control-label text-dark" for="age4" 
+                                        >51 – 60 ปี</label>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="custom-control custom-radio pt-2 form-check-inline">
+                                    <input type="radio" name="age" class="custom-control-input text-dark" value="มากกว่า 60 ปี" id = "age5">
+                                    <label class="custom-control-label text-dark" for="age5" 
+                                        >มากกว่า 60 ปี</label>
+                                </div>
+                            </div><br>
+            
+                            <label for="inputAddress" class="text-dark">3. สถานภาพ</label>
+                            <div class="">
+                                <div class="custom-control custom-radio pt-2 form-check-inline">
+                                    <input type="radio" name="status" class="custom-control-input text-dark" value="โสด" id = "status1">
+                                    <label class="custom-control-label text-dark" for="status1" >โสด&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                </div>
+                                <div class="custom-control custom-radio pt-2 form-check form-check-inline">
+                                    <input type="radio" name="status" class="custom-control-input form-check-inline" value="สมรส" id = "status2">
+                                    <label class="custom-control-label text-dark" for="status2" >สมรส</label>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="custom-control custom-radio pt-2 form-check form-check-inline">
+                                    <input type="radio" name="status" class="custom-control-input form-check-inline" value="หย่า, แยกกันอยู่" id = "status3">
+                                    <label class="custom-control-label text-dark" for="status3" >หย่า, แยกกันอยู่</label>
+                                </div>
+                                <div class="custom-control custom-radio pt-2 form-check form-check-inline">
+                                    <input type="radio" name="status" class="custom-control-input form-check-inline text-dark" value="หม้าย" id = "status4">
+                                    <label class="custom-control-label text-dark" for="status4" >หม้าย</label>
+                                </div>
+                            </div>
+                    </div>
+            
+                    <div class='card text-left p-3 col-md '>
+                    <p class="text-center pt-2 text-dark">ตอนที่ 2 ข้อมูลเกี่ยวกับการตัดสินใจท่องเที่ยวเชิงอาหารพื้นถิ่นภาคใต้ <br>
+                    กรุณาทำเครื่องหมาย ลงในช่อง ให้ตรงกับความคิดเห็นของท่านเห็นด้วยมากที่สุด   5   4   3   2   1 เห็นด้วยน้อยที่สุด</p>
+                  
+                            <table class="table table-bordered table-hover text-dark" id="t">
+                            <thead>
+                                <tr>
+                                <th scope="col" rowspan="2" class="text-center">รายการ</th>
+                                <th scope="col" colspan="6"  class="text-center">ความคิดเห็น</th>
+                                </tr>
+                                <tr>
+                                <th scope="col"  class="text-center">5</th>
+                                <th scope="col"  class="text-center">4</th>
+                                <th scope="col" class="text-center">3</th>
+                                <th scope="col" class="text-center">2</th>
+                                <th scope="col" class="text-center">1</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row" colspan="6"><b>การตัดสินใจ</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1. การนำเสนอรูปแบบอาหารท้องถิ่นภาคใต้</td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a1" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a1" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a1" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a1" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a1" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2. รูปแบบกิจกรรมเกี่ยวกับอาหารท้องถิ่นภาคใต้</td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a2" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a2" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a2" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a2" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a2" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>3. ราคาและความคุ้มค่า</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a3" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a3" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a3" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a3" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a3" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>4. แหล่งข้อมูลการบริโภคอาหารท้องถิ่นภาคใต้</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a4" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a4" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a4" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a4" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a4" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>5. ความสะดวกในการบริโภคอาหารท้องถิ่นภาคใต้</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a5" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a5" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a5" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a5" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a5" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>6. การให้บริการประเภทของอาหารท้องถิ่นภาคใต้</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a6" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a6" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a6" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a6" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a6" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>7. การให้บริการของพนักงาน</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a7" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a7" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a7" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a7" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="a7" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td scope="row" colspan="6"> <b>ความพึงพอใจของนักท่องเที่ยวที่มีต่ออาหารพื้นถิ่น</td>
+                                </tr>
+                                <tr>
+                                <td>1. มีเอกลักษณ์เฉพาะตัวที่แตกต่างจากอาหารทั่วไป</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b1" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b1" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b1" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b1" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b1" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>2. มีรสชาติที่เป็นเอกลักษณ์</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b2" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b2" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b2" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b2" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b2" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>3. มีกลิ่นที่เป็นเอกลักษณ์</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b3" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b3" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b3" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b3" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b3" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>4. มีความแปลกใหม่ น่าสนใจ</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b4" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b4" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b4" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b4" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b4" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>5. ใช้วัตถุดิบท้องถิ่นประกอบอาหาร</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b5" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b5" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b5" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b5" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b5" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>6. ความหลากหลายของรายการอาหารพื้นถิ่น</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b6" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b6" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b6" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b6" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b6" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>7. รสชาติของอาหาร</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b7" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b7" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b7" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b7" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b7" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>8. ความสดของอาหาร</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b8" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b8" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b8" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b8" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b8" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>9. การจัดตกแต่งจานน่ารับประทาน</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b9" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b9" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b9" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b9" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b9" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>10.คุณค่าทางโภชนาการของอาหาร</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b10" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b10" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b10" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b10" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b10" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>11.คุณภาพ – ได้มาตรฐาน</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b11" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b11" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b11" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b11" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b11" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>12.ราคาเหมาะสมกับคุณภาพ</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b12" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b12" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b12" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b12" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b12" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>13.ราคาเหมาะสมเมื่อเทียบกับอาหารทั่วไป</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b13" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b13" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b13" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b13" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b13" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>14. อาหารของภาคใต้มีรสเผ็ดมากกว่าภาคอื่นๆ</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b14" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b14" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b14" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b14" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b14" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>15. มีลักษณะผสมผสานระหว่างอาหารไทยพื้นบ้านกับอาหารอินเดียใต้</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b15" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b15" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b15" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b15" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="b15" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td scope="row" colspan="6"> <b>สภาพแวดล้อมอาหารพื้นถิ่นภาคใต้</td>
+                                </tr>
+                                <tr>
+                                <td>1. มีแหล่งท่องเที่ยวที่มีความหลากหลายและมีชื่อเสียงเป็นที่รู้จักระดับโลก</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c1" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c1" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c1" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c1" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c1" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>2. มีความหลากหลายทางวัฒนธรรมและวิถีชีวิตที่เป็นเอกลักษณ์อาหารพื้นถิ่น</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c2" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c2" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c2" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c2" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c2" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>3. มีความหลากหลายของทรัพยากรธรรมชาติที่เหมาะสบกับการท่องเที่ยวเชิงอาหาร</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c3" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c3" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c3" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c3" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c3" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>4. มีเอกลักษณ์เฉพาะตัวที่แตกต่างจากอาหารทั่วไป</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c4" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c4" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c4" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c4" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c4" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>5. ท่องเที่ยวเชิงอาหารเป็นโอกาสในการเผยแพร่วัฒนธรรมอาหารของภาคใต้</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c5" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c5" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c5" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c5" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c5" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>6. สภาวะแวดล้อมทางด้านภูมิศาสตร์ เช่น เขตพื้นที่ ย่านทำเลที่ตั้ง</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c6" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c6" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c6" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c6" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c6" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>7. สภาวะแวดล้อมทางด้านสังคมและวัฒนธรรม เช่น ความนิยมชมชอบ ความเชื่อ ค่านิยมต่างๆ</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c7" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c7" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c7" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c7" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c7" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <td>8. สภาวะแวดล้อมทางเศรษฐกิจ เช่น รายได้ ค่าใช้จ่าย สถานะทางการเงิน และอำนาจในการซื้อ</td>
+                                <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c8" value="5">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c8" value="4">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c8" value="3">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c8" value="2">
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c8" value="1">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            </table>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <p></p>
+                    <div>
+                        <button class="btn btn-success" type="submit" name="addOrder" id="add">ยืนยัน</button>
+                    </div>
+                </form>   
+                <!-- <a href="#" class="btn btn-primary" >ทำแบบสอบถาม</a> -->
+              </div>
+            </div>
+                       
+            
+            <!--p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span class="mr-2"><a href="inquiry_form.html">แบบสอบถาม</a></span></p-->
+          </div>
+        </div>
+      </div>
+      <div>
+    </div>
+
+
+    <!--section class="ftco-section ftco-degree-bg">
+    </section> <!-- .section -->
+
+    <!-- <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">ท่องเที่ยวภาคใต้</h2>
+          <p>การท่องเที่ยวเชิงอาหารเป็นรูปแบบหนึ่งที่ให้นักท่องเที่ยวได้สื่อสารกับผู้คนในท้องถิ่นและวิถีชีวิตผ่านวัฒนธรรมอาหาร อาหารท้องถิ่นของภาคใต้ มีรสชาติที่โดดเด่นเป็นเอกลักษณ์เฉพาะบางประเภทไม่สามารถหารับประทานได้จากที่อื่นๆ จึงเหมาะสมที่จะพัฒนาการท่องเที่ยวเฉพาะกลุ่ม</p>
+          </div>
+          </div>
+          <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">โครงการวิจัยที่เกี่ยวข้อง</h2>
+          <ul class="list-unstyled">
+          <li><a href="#" class="py-2 d-block">โครงการ 1</a></li>
+          <li><a href="#" class="py-2 d-block">โครงการ 2</a></li>
+          <li><a href="#" class="py-2 d-block">โครงการ 3</a></li>
+          </ul>
+          </div>
+          </div>
+          <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">สอบถามข้อมูลเพิ่มเติม</h2>
+          <div class="block-23 mb-3">
+            <ul>
+            <li><span class="icon icon-map-marker"></span><span class="text">295 มหาวิทยาลัยสวนดุสิต ถนนนครราชสีมา เขตดุสิต กรุงเทพ 10300</span></li>
+            <li><a href="#"><span class="icon icon-phone"></span><span class="text">02 244 5000</span></a></li>
+            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+            </ul>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+      
+          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> มหาวิทยาลัยสวนดุสิต</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+        </div>  
+    </footer> -->
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
+
+<script src="js/jquery-3.5.1.js"></script>
+<script>
+    $(function() {
+        
+        $('form#p').submit(function(event) {
+            event.preventDefault();
+            // var province = $("#province").val();
+            // var store = $("#store").val();
+
+            var gender = $("input[name ='gender']:checked").val();
+            var age = $("input[name ='age']:checked").val();
+            var status = $("input[name ='status']:checked").val();
+            console.log(gender);
+            console.log(age);
+            console.log(status);
+
+            var a1 = $("input[name ='a1']:checked").val();
+            var a2 = $("input[name ='a2']:checked").val();
+            var a3 = $("input[name ='a3']:checked").val();
+            var a4 = $("input[name ='a4']:checked").val();
+            var a5 = $("input[name ='a5']:checked").val();
+            var a6 = $("input[name ='a6']:checked").val();
+            var a7 = $("input[name ='a7']:checked").val();
+
+            var b1 = $("input[name ='b1']:checked").val();
+            var b2 = $("input[name ='b2']:checked").val();
+            var b3 = $("input[name ='b3']:checked").val();
+            var b4 = $("input[name ='b4']:checked").val();
+            var b5 = $("input[name ='b5']:checked").val();
+            var b6 = $("input[name ='b6']:checked").val();
+            var b7 = $("input[name ='b7']:checked").val();
+            var b8 = $("input[name ='b8']:checked").val();
+            var b9 = $("input[name ='b9']:checked").val();
+            var b10 = $("input[name ='b10']:checked").val();
+            var b11 = $("input[name ='b11']:checked").val();
+            var b12 = $("input[name ='b12']:checked").val();
+            var b13 = $("input[name ='b13']:checked").val();
+            var b14 = $("input[name ='b14']:checked").val();
+            var b15 = $("input[name ='b15']:checked").val();
+
+            var c1 = $("input[name ='c1']:checked").val();
+            var c2 = $("input[name ='c2']:checked").val();
+            var c3 = $("input[name ='c3']:checked").val();
+            var c4 = $("input[name ='c4']:checked").val();
+            var c5 = $("input[name ='c5']:checked").val();
+            var c6 = $("input[name ='c6']:checked").val();
+            var c7 = $("input[name ='c7']:checked").val();
+            var c8 = $("input[name ='c8']:checked").val();
+            if (typeof ((gender) && (age) && (status) && (a1) && (a2) && (a3) && (a4) && (a5) && (a6) && (a7) && (b1) && (b2) && (b3) && (b4) && (b5) && (b7) && (b8) && (b9) && (b10) && (b11) && (b12) && (b13) && (b14) && (b15) && (c1) && (c2) && (c3) && (c4) && (c5) && (c6) && (c7) && (c8)) == "undefined" ) {
+                alert("โปรดใส่เลือกแบบสอบถามให้ครบ");
+            }
+            else if (typeof ((gender) && (age) && (status) && (a1) && (a2) && (a3) && (a4) && (a5) && (a6) && (a7) && (b1) && (b2) && (b3) && (b4) && (b5) && (b7) && (b8) && (b9) && (b10) && (b11) && (b12) && (b13) && (b14) && (b15) && (c1) && (c2) && (c3) && (c4) && (c5) && (c6) && (c7) && (c8)) != "undefined" ){
+                // alert("fsfadgdgsdfg");
+                $.ajax({
+                    url: 'Save_inquiry.php',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        gender : gender,
+                        age : age,
+                        status : status,
+                        a1 : a1,
+                        a2 : a2,
+                        a3 : a3,
+                        a4 : a4,
+                        a5 : a5,
+                        a6 : a6,
+                        a7 : a7,
+                        b1 : b1,
+                        b2 : b2,
+                        b3 : b3,
+                        b4 : b4,
+                        b5 : b5,
+                        b6 : b6,
+                        b7 : b7,
+                        b8 : b8,
+                        b9 : b9,
+                        b10 : b10, 
+                        b11 : b11,
+                        b12 : b12,
+                        b13 : b13,
+                        b14 : b14,
+                        b15 : b15,
+                        c1 : c1,
+                        c2 : c2,
+                        c3 : c3,
+                        c4 : c4,
+                        c5 : c5,
+                        c6 : c6,
+                        c7 : c7,
+                        c8 : c8,
+                    },
+                    success :function(data){
+                        alert(data);
+                        $("input[name ='gender']:checked").prop('checked',false);
+                        $("input[name ='age']:checked").prop('checked',false);
+                        $("input[name ='status']:checked").prop('checked',false);
+
+                        $("input[name ='a1']:checked").prop('checked',false);
+                        $("input[name ='a2']:checked").prop('checked',false);
+                        $("input[name ='a3']:checked").prop('checked',false);
+                        $("input[name ='a4']:checked").prop('checked',false);
+                        $("input[name ='a5']:checked").prop('checked',false);
+                        $("input[name ='a6']:checked").prop('checked',false);
+                        $("input[name ='a7']:checked").prop('checked',false);
+                        $("input[name ='b1']:checked").prop('checked',false);
+                        $("input[name ='b2']:checked").prop('checked',false);
+                        $("input[name ='b3']:checked").prop('checked',false);
+                        $("input[name ='b4']:checked").prop('checked',false);
+                        $("input[name ='b5']:checked").prop('checked',false);
+                        $("input[name ='b6']:checked").prop('checked',false);
+                        $("input[name ='b7']:checked").prop('checked',false);
+                        $("input[name ='b8']:checked").prop('checked',false);
+                        $("input[name ='b9']:checked").prop('checked',false);
+                        $("input[name ='b10']:checked").prop('checked',false);
+                        $("input[name ='b11']:checked").prop('checked',false);
+                        $("input[name ='b12']:checked").prop('checked',false);
+                        $("input[name ='b13']:checked").prop('checked',false);
+                        $("input[name ='b14']:checked").prop('checked',false);
+                        $("input[name ='b15']:checked").prop('checked',false);
+
+                        $("input[name ='c1']:checked").prop('checked',false);
+                        $("input[name ='c2']:checked").prop('checked',false);
+                        $("input[name ='c3']:checked").prop('checked',false);
+                        $("input[name ='c4']:checked").prop('checked',false);
+                        $("input[name ='c5']:checked").prop('checked',false);
+                        $("input[name ='c6']:checked").prop('checked',false);
+                        $("input[name ='c7']:checked").prop('checked',false);
+                        $("input[name ='c8']:checked").prop('checked',false);
+                    }
+                });
+                
+            }
+    
+        });
+    });
+    
+
+
+
+
+</script>
